@@ -8,7 +8,6 @@ import java.util.List;
 
 public class StudentService {
 
-
     private final StudentRepository repo;
 
     public StudentService(StudentRepository repo) {

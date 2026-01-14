@@ -16,7 +16,6 @@ public class StudentRepositoryImpl implements StudentRepository {
         this.db = db;
     }
 
-
     @Override
     public void create(Student student) {
         String sql = "INSERT INTO public.students(name, age) VALUES (?, ?)";

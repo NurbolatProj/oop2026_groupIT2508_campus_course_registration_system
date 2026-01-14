@@ -7,7 +7,6 @@ public class Enrollment {
 
     public Enrollment(int studentId, int courseId) {
         this.studentId = studentId;
-
         this.courseId = courseId;
     }
 
